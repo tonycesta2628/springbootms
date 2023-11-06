@@ -29,3 +29,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Push packages
+      run: mvn deploy -Dregistry=https://maven.pkg.github.com/tonycesta2628 -Dtoken=$GH_TOKEN

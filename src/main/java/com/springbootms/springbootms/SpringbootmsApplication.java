@@ -11,7 +11,7 @@ public class SpringbootmsApplication {
 
     @RequestMapping("/api/vi/Hello")
     public String home() {
-        return "Dockering my First Spring Boot application";
+        return "Dockering using Github mvn Actions";
     }
 
     public static void main(String[] args) {

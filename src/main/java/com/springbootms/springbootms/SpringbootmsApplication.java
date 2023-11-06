@@ -11,7 +11,7 @@ public class SpringbootmsApplication {
 .jar
     @RequestMapping("/api/vi/Hello")
     public String home() {
-        return "This is my first push to Github repository";
+        return "Dockering my First Spring Boot application";
     }
 
     public static void main(String[] args) {

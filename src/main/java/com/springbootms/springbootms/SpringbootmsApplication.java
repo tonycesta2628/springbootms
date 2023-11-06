@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringbootmsApplication {
-.jar
+
     @RequestMapping("/api/vi/Hello")
     public String home() {
         return "Dockering my First Spring Boot application";
